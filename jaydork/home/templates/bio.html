@@ -1,0 +1,25 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href="{% static '../static/home/style.css' %}"/s>
+    <title>Jaydork</title>
+  </head>
+  <body>
+    <h1>Jaydork</h1>
+    <p> My name is Jaydn Clausen and I want to get into game development. I am currently working on getting my BA in Computer science and recently finished a 12 week camp with PDX Code Guild. This site is the cummulation of everything I learned in that camp, and will be my portfolio for future projects. 
+    <button id='signup' class='button'>Sign In</button>
+    
+    <div class='navbar'>
+      <button id='home' class='buttons'>Home</button>
+      <button id='videos' class='buttons'>Videos</button>
+      <button id='games' class='buttons'>Games</button>
+      <button id='bio' class='buttons'>Bio</button>
+      <button id='twitch' class='buttons'>Twitch</button>
+    </div>
+
+ 
+  </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>   
+<script src="{% static '../static/home/java_script.js' %}"> </script>
+</html> 

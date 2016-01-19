@@ -1,0 +1,30 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href="{% static '../static/home/style.css' %}"/s>
+    <title>Jaydork</title>
+  </head>
+  <body>
+    <h1>Jaydork</h1>
+
+    <button id='signup' class='button'>Sign In</button>
+    <button id='createacct' class='buttons'> Create Account</button>
+
+    <div class='navbar'>
+      <button id='home' class='buttons'>Home</button>
+      <button id='videos' class='buttons'>Videos</button>
+      <button id='games' class='buttons'>Games</button>
+      <button id='bio' class='buttons'>Bio</button>
+      <button id='twitch' class='buttons'>Twitch</button>
+    </div>
+    <!-- form to sign in with a pre existing account -->
+    <form id='signin' method='POST'>
+      {% csrf_token %}
+      {{form.as_p}}
+      <input type='submit' value='Submit'>
+    </form>
+  </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>   
+<script src="{% static '../static/home/java_script.js' %}"> </script>
+</html>

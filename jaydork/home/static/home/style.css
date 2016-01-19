@@ -1,0 +1,194 @@
+body{
+	background-color: #595858;
+}
+
+h1{
+	display: inline-block;
+	color: #ed0000;
+	font-size: 72px;
+	margin: 0px;
+	padding-bottom: 10px;
+	font-weight: bolder;
+	padding: 5px;
+
+}
+
+
+#signup{
+	display: inline;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	font-size: 40;
+	margin-left: 1400px;
+	background-color: transparent;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+#createacct{
+	display: inline;
+	font-size: 18px;
+	color: white;
+	margin-left: 1610px;
+	margin-bottom: 10px;
+}
+
+#signup:hover,#createacct:hover, .buttons:hover {
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+}
+
+.navbar{
+	background-color: #ff4800;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.buttons{
+	margin-left: 200px;
+	font-size: 32px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-color: black;
+	border-left: 2px;
+	border-right: 2px;
+	color: #1026ed;
+	font-weight: bolder;
+	background-color: transparent;
+}
+
+.intro{
+	margin-left: 575px;
+	margin-right: 575px;
+	margin-top: 25px;
+}
+
+
+
+form {
+	font-size: 32px;
+	padding-top: 100px;
+	text-align: center;
+	color: white;
+}
+
+p{
+	text-align: center;
+	margin-left: 0px;
+	margin-top: 50px;
+	padding-right: 0px;
+	padding-left: 0px;
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+ul {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#intro{
+	margin-left: 585px;
+	margin-top: 10px;
+	margin-right: 585px;
+}
